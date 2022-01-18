@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Charger.xcodeproj">
+      location = "group:/Users/renedena/Documents/GitHub/Charger Animation/Charger-Animation/Charger/Chargersy.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

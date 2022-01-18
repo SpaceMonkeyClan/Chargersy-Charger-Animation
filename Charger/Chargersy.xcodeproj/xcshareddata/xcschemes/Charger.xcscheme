@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7904B9EA273DD0CD008227B7"
                BuildableName = "Charger.app"
-               BlueprintName = "Charger"
-               ReferencedContainer = "container:Charger.xcodeproj">
+               BlueprintName = "Chargersy"
+               ReferencedContainer = "container:Chargersy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -46,8 +46,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7904B9EA273DD0CD008227B7"
             BuildableName = "Charger.app"
-            BlueprintName = "Charger"
-            ReferencedContainer = "container:Charger.xcodeproj">
+            BlueprintName = "Chargersy"
+            ReferencedContainer = "container:Chargersy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7904B9EA273DD0CD008227B7"
             BuildableName = "Charger.app"
-            BlueprintName = "Charger"
-            ReferencedContainer = "container:Charger.xcodeproj">
+            BlueprintName = "Chargersy"
+            ReferencedContainer = "container:Chargersy.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

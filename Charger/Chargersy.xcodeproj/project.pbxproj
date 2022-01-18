@@ -63,7 +63,7 @@
 /* Begin PBXFileReference section */
 		39E62F6B8330CFF56D257674 /* Pods-Charger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Charger.release.xcconfig"; path = "Target Support Files/Pods-Charger/Pods-Charger.release.xcconfig"; sourceTree = "<group>"; };
 		5988B11A37D355C22C6E0BC8 /* Pods_Charger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Charger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7904B9EB273DD0CD008227B7 /* Charger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Charger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7904B9EB273DD0CD008227B7 /* Chargersy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chargersy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7904B9EE273DD0CD008227B7 /* ChargerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChargerApp.swift; sourceTree = "<group>"; };
 		7904B9F0273DD0CD008227B7 /* DashboardContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardContentView.swift; sourceTree = "<group>"; };
 		7904B9F2273DD0CE008227B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -138,7 +138,7 @@
 		7904B9EC273DD0CD008227B7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7904B9EB273DD0CD008227B7 /* Charger.app */,
+				7904B9EB273DD0CD008227B7 /* Chargersy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -269,9 +269,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7904B9EA273DD0CD008227B7 /* Charger */ = {
+		7904B9EA273DD0CD008227B7 /* Chargersy */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7904B9FA273DD0CE008227B7 /* Build configuration list for PBXNativeTarget "Charger" */;
+			buildConfigurationList = 7904B9FA273DD0CE008227B7 /* Build configuration list for PBXNativeTarget "Chargersy" */;
 			buildPhases = (
 				80970DE8D6823237253A977E /* [CP] Check Pods Manifest.lock */,
 				7904B9E7273DD0CD008227B7 /* Sources */,
@@ -284,9 +284,9 @@
 			);
 			dependencies = (
 			);
-			name = Charger;
+			name = Chargersy;
 			productName = Charger;
-			productReference = 7904B9EB273DD0CD008227B7 /* Charger.app */;
+			productReference = 7904B9EB273DD0CD008227B7 /* Chargersy.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -303,7 +303,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7904B9E6273DD0CD008227B7 /* Build configuration list for PBXProject "Charger" */;
+			buildConfigurationList = 7904B9E6273DD0CD008227B7 /* Build configuration list for PBXProject "Chargersy" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -316,7 +316,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7904B9EA273DD0CD008227B7 /* Charger */,
+				7904B9EA273DD0CD008227B7 /* Chargersy */,
 			);
 		};
 /* End PBXProject section */
@@ -583,7 +583,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7904B9E6273DD0CD008227B7 /* Build configuration list for PBXProject "Charger" */ = {
+		7904B9E6273DD0CD008227B7 /* Build configuration list for PBXProject "Chargersy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7904B9F8273DD0CE008227B7 /* Debug */,
@@ -592,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7904B9FA273DD0CE008227B7 /* Build configuration list for PBXNativeTarget "Charger" */ = {
+		7904B9FA273DD0CE008227B7 /* Build configuration list for PBXNativeTarget "Chargersy" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7904B9FB273DD0CE008227B7 /* Debug */,
