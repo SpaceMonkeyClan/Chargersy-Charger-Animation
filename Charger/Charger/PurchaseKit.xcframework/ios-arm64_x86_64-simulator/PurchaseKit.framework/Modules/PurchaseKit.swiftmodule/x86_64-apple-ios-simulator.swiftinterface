@@ -1,0 +1,47 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PurchaseKit
+@_exported import PurchaseKit
+import Swift
+import SwiftUI
+import UIKit
+import _StoreKit_SwiftUI
+public typealias PKCompletionBlock = (((error: Swift.Error?, status: PurchaseKit.PKPurchaseStatus, productIdentifier: Swift.String)) -> Swift.Void)
+public enum PKPurchaseStatus : Swift.String {
+  case success, error, expired, restored, unsubscribed
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers public class PKManager : ObjectiveC.NSObject {
+  public static let shared: PurchaseKit.PKManager
+  public static var disclaimer: Swift.String
+  public var productIdentifiers: [Swift.String]
+  public var shouldShowLogs: Swift.Bool
+  public class func configure(sharedSecret: Swift.String, showLogs: Swift.Bool = true)
+  public class func loadProducts(identifiers: [Swift.String])
+  public class func restorePurchases(completion: PurchaseKit.PKCompletionBlock? = nil)
+  public class func purchaseProduct(identifier: Swift.String, completion: PurchaseKit.PKCompletionBlock? = nil)
+  public class func verifySubscription(identifier: Swift.String, completion: PurchaseKit.PKCompletionBlock? = nil)
+  public class func formattedProductTitle(identifier: Swift.String) -> Swift.String
+  public class func productTitle(identifier: Swift.String) -> Swift.String
+  public class func productPrice(identifier: Swift.String) -> Swift.String
+  public class func introductoryPrice(identifier: Swift.String) -> Swift.String
+  public class func subscriptionPeriod(identifier: Swift.String) -> (duration: Swift.String, unit: Swift.String)
+  public class func present(theme: SwiftUI.AnyView, fromController controller: UIKit.UIViewController)
+  public class func dismissInAppPurchaseScreen()
+  @objc deinit
+  @objc override dynamic public init()
+}
+extension PKManager : StoreKit.SKPaymentTransactionObserver, StoreKit.SKProductsRequestDelegate {
+  @objc dynamic public func productsRequest(_ request: StoreKit.SKProductsRequest, didReceive response: StoreKit.SKProductsResponse)
+  @objc dynamic public func request(_ request: StoreKit.SKRequest, didFailWithError error: Swift.Error)
+  @objc dynamic public func paymentQueue(_ queue: StoreKit.SKPaymentQueue, restoreCompletedTransactionsFailedWithError error: Swift.Error)
+  @objc dynamic public func paymentQueueRestoreCompletedTransactionsFinished(_ queue: StoreKit.SKPaymentQueue)
+  @objc dynamic public func paymentQueue(_ queue: StoreKit.SKPaymentQueue, updatedTransactions transactions: [StoreKit.SKPaymentTransaction])
+}
+extension PurchaseKit.PKPurchaseStatus : Swift.Equatable {}
+extension PurchaseKit.PKPurchaseStatus : Swift.Hashable {}
+extension PurchaseKit.PKPurchaseStatus : Swift.RawRepresentable {}
