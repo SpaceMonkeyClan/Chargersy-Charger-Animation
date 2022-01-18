@@ -13,7 +13,7 @@ class AppConfig {
     
     /// This is the AdMob Interstitial ad id
     /// Test App ID: ca-app-pub-3940256099942544~1458002511
-    static let adMobAdId: String = "ca-app-pub-3940256099942544/4411468910"
+    static let adMobAdId: String = "ca-app-pub-4998868944035881/7360806695"
     static let adMobFrequency: Int = 3 /// every 3 theme views
     
     // MARK: - Terms and Privacy
@@ -31,11 +31,11 @@ class AppConfig {
     static let yourAppURL: URL = URL(string: "https://apps.apple.com/us/app/chargersy-charger-animation/id1605698211")!
     
     // MARK: - UI Configurations
-    static let progressGradient: Gradient = Gradient(colors: [Color(#colorLiteral(red: 0.9686274529, green: 0.78039217, blue: 0.3450980484, alpha: 1)), Color(#colorLiteral(red: 0.9529411793, green: 0.6862745285, blue: 0.1333333403, alpha: 1))])
+    static let progressGradient: Gradient = Gradient(colors: [Color(#colorLiteral(red: 0.721568644, green: 0.8862745166, blue: 0.5921568871, alpha: 1)), Color(#colorLiteral(red: 0.5843137503, green: 0.8235294223, blue: 0.4196078479, alpha: 1))])
     static let progressLineWidth: CGFloat = 15
-    static let backgroundGradient: Gradient = Gradient(colors: [Color(#colorLiteral(red: 0.2196078431, green: 0.2588235294, blue: 0.7294117647, alpha: 1)), Color(#colorLiteral(red: 0.09803921569, green: 0.1058823529, blue: 0.2274509804, alpha: 1))])
+    static let backgroundGradient: Gradient = Gradient(colors: [Color(#colorLiteral(red: 0.4745098054, green: 0.8392156959, blue: 0.9764705896, alpha: 1)), Color(#colorLiteral(red: 0.2392156869, green: 0.6745098233, blue: 0.9686274529, alpha: 1))])
     static let dashboardItemHeight: CGFloat = 250
-    static let buttonGradient: Gradient = Gradient(colors: [Color(#colorLiteral(red: 0.2518373728, green: 0.2469416559, blue: 0.6877331734, alpha: 1)), Color(#colorLiteral(red: 0.7147428393, green: 0.2732455134, blue: 0.7767350078, alpha: 1))])
+    static let buttonGradient: Gradient = Gradient(colors: [Color(#colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1)), Color(#colorLiteral(red: 0.9098039269, green: 0.4784313738, blue: 0.6431372762, alpha: 1))])
     static let boltIconSize: CGFloat = 50
     static let backgroundDarkColor: Color = Color(#colorLiteral(red: 0.1326494813, green: 0.1326494813, blue: 0.1326494813, alpha: 1))
     static let dashboardCircleAnimationDuration: Double = 0.7
