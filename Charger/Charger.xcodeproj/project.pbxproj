@@ -542,7 +542,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Charger/Preview Content\"";
-				DEVELOPMENT_TEAM = JAPVDZ486H;
+				DEVELOPMENT_TEAM = H7Y45777YP;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Charger/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -550,7 +550,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.a4w.charger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpaceMonkeyLabs.Charger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -565,7 +565,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Charger/Preview Content\"";
-				DEVELOPMENT_TEAM = JAPVDZ486H;
+				DEVELOPMENT_TEAM = H7Y45777YP;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Charger/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -573,7 +573,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.a4w.charger;
+				PRODUCT_BUNDLE_IDENTIFIER = com.SpaceMonkeyLabs.Charger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;

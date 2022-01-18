@@ -194,12 +194,17 @@ struct SettingsContentView: View {
             }
             Rectangle().frame(height: 1).foregroundColor(.white)
                 .opacity(0.2).padding([.leading, .trailing])
+            SettingsItem(title: "Contact Me", icon: "phone") {
+                UIApplication.shared.open(AppConfig.contactURL, options: [:], completionHandler: nil)
+            }
+            Rectangle().frame(height: 1).foregroundColor(.white)
+                .opacity(0.2).padding([.leading, .trailing])
             SettingsItem(title: "Privacy Policy", icon: "hand.raised") {
                 UIApplication.shared.open(AppConfig.privacyURL, options: [:], completionHandler: nil)
             }
             Rectangle().frame(height: 1).foregroundColor(.white)
                 .opacity(0.2).padding([.leading, .trailing])
-            SettingsItem(title: "Terms of Use", icon: "doc.text") {
+            SettingsItem(title: "Developer Website", icon: "doc.text") {
                 UIApplication.shared.open(AppConfig.termsURL, options: [:], completionHandler: nil)
             }
         }.padding([.top, .bottom], 5).background(

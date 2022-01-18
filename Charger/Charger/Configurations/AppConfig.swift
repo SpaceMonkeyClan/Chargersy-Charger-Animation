@@ -17,16 +17,18 @@ class AppConfig {
     static let adMobFrequency: Int = 3 /// every 3 theme views
     
     // MARK: - Terms and Privacy
-    static let termsURL: URL = URL(string: "https://apps4world.com")!
-    static let privacyURL: URL = URL(string: "https://apps4world.com")!
+    static let termsURL: URL = URL(string: "https://space-monkey.online/")!
+    static let privacyURL: URL = URL(string: "https://space-monkey.online/privacy-policy")!
+    static let contactURL: URL = URL(string: "https://space-monkey.online/contact")!
+
     
     // MARK: - In App Purchases
     static let premiumVersion: String = "Charger.Premium"
     static let freeCategories: [String] = ["Top"]
     
     /// Your email for support
-    static let emailSupport = "support@apps4world.com"
-    static let yourAppURL: URL = URL(string: "https://apps.apple.com/us/app/apple-store/id375380948")!
+    static let emailSupport = "rene.b.dena@gmail.com"
+    static let yourAppURL: URL = URL(string: "https://apps.apple.com/us/app/chargersy-charger-animation/id1605698211")!
     
     // MARK: - UI Configurations
     static let progressGradient: Gradient = Gradient(colors: [Color(#colorLiteral(red: 0.9686274529, green: 0.78039217, blue: 0.3450980484, alpha: 1)), Color(#colorLiteral(red: 0.9529411793, green: 0.6862745285, blue: 0.1333333403, alpha: 1))])
